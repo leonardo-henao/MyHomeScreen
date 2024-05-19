@@ -26,9 +26,10 @@ The wallpaper url is saved in localStorage on your browser for next open and wal
 ## Get Unsplash API credentials
 
 You need the `apikey` and `topic_id` for load background wallpapers on the page.
+<br />
 Set `env` or environment with the follow name
 
-|||
+| env name | data |
 |-|-|
 | VITE_UNSPLASH_API_KEY | Create app in Unsplash [here](https://unsplash.com/oauth/applications),after, open the app and scroll down to seccion `Keys` and copy `Access Key`.|
 | VITE_UNSPLASH_TOPIC | For the topic id, go to [here](https://unsplash.com/t/) after you selected any, you watch the URL and copy the tag mark. |
@@ -45,7 +46,8 @@ At the bottom left you will see a button with the `reload` symbol to change the 
 - Configure your bookmarks on `/src/data/MyBookMarks.ts`
 - Deploy in your hosting proveedor favorite, i like [Vercel](https://vercel.com)
 - Configure your bookmark on `/src/data/MyBookMarks.ts` following the next parameters:
-<pre>
+
+```
 export const AllBookmarks: IGroupBookmark[] = [
  { title: "MyBookmar",
    data: [
@@ -54,7 +56,7 @@ export const AllBookmarks: IGroupBookmark[] = [
    ]
  },
 ]
-</pre>
+```
 
 ## Browser settings
 
