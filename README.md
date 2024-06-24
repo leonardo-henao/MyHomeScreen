@@ -43,8 +43,6 @@ At the bottom left you will see a button with the `reload` symbol to change the 
 ## Installation
 
 - Clone/Fork repository
-- Configure your bookmarks on `/src/data/MyBookMarks.ts`
-- Deploy in your hosting proveedor favorite, i like [Vercel](https://vercel.com)
 - Configure your bookmark on `/src/data/MyBookMarks.ts` following the next parameters:
 
 ```
@@ -57,6 +55,8 @@ export const AllBookmarks: IGroupBookmark[] = [
  },
 ]
 ```
+
+- Deploy in your hosting proveedor favorite, i like [Vercel](https://vercel.com)
 
 ## Browser settings
 

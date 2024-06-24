@@ -1,9 +1,9 @@
-import { Toaster } from 'react-hot-toast';
-import { TfiReload } from 'react-icons/tfi';
-import MarkCreate from './components/MarkCreate';
-import SectionBookmark from './components/SectionBookmark';
-import { AllBookmarks } from './data/MyBookMarks';
-import { useGetWallpaper } from './hooks/useGetWallpaper';
+import { Toaster } from "react-hot-toast";
+import { TfiReload } from "react-icons/tfi";
+import MarkCreate from "./components/MarkCreate";
+import SectionBookmark from "./components/SectionBookmark";
+import { AllBookmarks } from "./data/MyBookMarks";
+import { useGetWallpaper } from "./hooks/useGetWallpaper";
 
 function App() {
   const { wallpaper, getNewWallpaper } = useGetWallpaper();
@@ -20,7 +20,10 @@ function App() {
         <Toaster position="bottom-right" />
       </div>
       <MarkCreate />
-      <button className="fixed bottom-4 left-4" onClick={() => getNewWallpaper()}>
+      <button
+        className="fixed bottom-4 left-4"
+        onClick={() => getNewWallpaper()}
+      >
         <TfiReload />
       </button>
     </main>

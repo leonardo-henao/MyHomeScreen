@@ -1,4 +1,4 @@
-import { IBookmark } from '../interfaces/IBookmark';
+import { IBookmark } from "../interfaces/IBookmark";
 
 interface IProp {
   data: IBookmark;
@@ -7,7 +7,7 @@ interface IProp {
 const ButtonBookmark = ({ data }: IProp) => {
   return (
     <a
-      className="flex flex-col items-center justify-center size-20 overflow-ellipsis relative group/button *:transition-all"
+      className="flex flex-col items-center justify-center size-20 overflow-ellipsis relative group/button *:transition-all tex"
       key={data.name}
       href={data.url}
       rel="noreferrer"
@@ -18,7 +18,7 @@ const ButtonBookmark = ({ data }: IProp) => {
         src={data.img}
         alt={`Icon ${data.name}`}
       />
-      <span className="opacity-90 font-semibold text-xs text-center line-clamp-1 overflow-ellipsis group-hover/button:hidden">
+      <span className="opacity-90 font-semibold text-xs text-center line-clamp-1 overflow-ellipsis group-hover/button:hidden mt-1">
         {data.name}
       </span>
     </a>
