@@ -97,6 +97,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: "https://www.freecodecamp.org/",
         img: GetIconFromWebsite("https://www.freecodecamp.org/"),
       },
+      {
+        name: "BananaRancia",
+        url: "https://bananarancia.com/",
+        img: GetIconFromWebsite("https://bananarancia.com/"),
+      },
     ],
   },
   {
