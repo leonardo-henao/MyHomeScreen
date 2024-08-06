@@ -52,11 +52,6 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: "https://github.com/leonardo-henao",
         img: `https://github.com/fluidicon.png`,
       },
-      {
-        name: "WakaTime",
-        url: "https://wakatime.com/dashboard",
-        img: `https://wakatime.com/favicon.ico`,
-      },
       // {
       //   name: "IPTV Lists Admin",
       //   url: "https://iptvlistasm3u.com/",
@@ -118,11 +113,6 @@ export const AllBookmarks: IGroupBookmark[] = [
         img: GetIconFromWebsite("https://music.youtube.com"),
       },
       {
-        name: "Spotify",
-        url: "https://open.spotify.com/",
-        img: GetIconFromWebsite("https://spotify.com"),
-      },
-      {
         name: "Discord",
         url: "https://discord.com/channels/@me",
         img: GetIconFromWebsite("https://discord.com/"),
@@ -136,6 +126,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         name: "Anime FLV",
         url: "https://www3.animeflv.net/",
         img: GetIconFromWebsite("https://www3.animeflv.net/"),
+      },
+      {
+        name: "Reddit",
+        url: "https://www.reddit.com",
+        img: GetIconFromWebsite("https://www.reddit.com"),
       },
     ],
   },
@@ -157,6 +152,21 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: "https://coinmarketcap.com/es",
         img: GetIconFromWebsite("https://coinmarketcap.com/"),
       },
+    ],
+  },
+  {
+    title: "Others",
+    data: [
+      {
+        name: "WakaTime",
+        url: "https://wakatime.com/dashboard",
+        img: `https://wakatime.com/favicon.ico`,
+      },
+      //{
+      //  name: "",
+      //  url: "",
+      //  img: "",
+      //},
     ],
   },
 ];
