@@ -18,6 +18,11 @@ export const AllBookmarks: IGroupBookmark[] = [
     title: "Bookmarks",
     data: [
       {
+        name: "Leonardo's Portfolio",
+        url: "https://leonardohenao.com",
+        img: GetIconFromWebsite("https://leonardohenao.com"),
+      },
+      {
         name: "Gmail",
         url: "https://mail.google.com/mail/u/0/#inbox",
         img: `https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico`,
@@ -33,6 +38,21 @@ export const AllBookmarks: IGroupBookmark[] = [
         img: GetIconFromWebsite("https://translate.google.com"),
       },
       {
+        name: "Github",
+        url: "https://github.com/leonardo-henao",
+        img: `https://github.com/fluidicon.png`,
+      },
+      {
+        name: "Vercel",
+        url: "https://vercel.com/leonardohenaos-projects",
+        img: GetIconFromWebsite("https://vercel.com"),
+      },
+    ],
+  },
+  {
+    title: "IAs",
+    data: [
+      {
         name: "ChatGPT",
         url: "https://chat.openai.com",
         img: GetIconFromWebsite("https://chat.openai.com"),
@@ -42,21 +62,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: "https://gemini.google.com/app?hl=es",
         img: GetIconFromWebsite("https://gemini.google.com/app?hl=es"),
       },
-      // {
-      //   name: "Copy IA",
-      //   url: "https://app.copy.ai/",
-      //   img: GetIconFromWebsite("https://app.copy.ai/"),
-      // },
       {
-        name: "Github",
-        url: "https://github.com/leonardo-henao",
-        img: `https://github.com/fluidicon.png`,
+        name: "Toolify",
+        url: "https://www.toolify.ai",
+        img: GetIconFromWebsite("https://www.toolify.ai"),
       },
-      // {
-      //   name: "IPTV Lists Admin",
-      //   url: "https://iptvlistasm3u.com/",
-      //   img: `https://iptv-list.vercel.app/favicon.svg`,
-      // },
     ],
   },
   {
@@ -108,7 +118,7 @@ export const AllBookmarks: IGroupBookmark[] = [
         img: GetIconFromWebsite("https://www.youtube.com"),
       },
       {
-        name: "Youtube Music",
+        name: "YT Music",
         url: "https://music.youtube.com",
         img: GetIconFromWebsite("https://music.youtube.com"),
       },
