@@ -28,6 +28,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         img: `https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico`,
       },
       {
+        name: "spreadsheets",
+        url: "https://docs.google.com/spreadsheets/u/0/",
+        img: GetIconFromWebsite("https://docs.google.com/spreadsheets/u/0/"),
+      },
+      {
         name: "Play Console",
         url: "https://play.google.com/console/u/0/developers/7404460400144886326/app-list?pli=1",
         img: `https://www.gstatic.com/play-apps-publisher/play_console_favicon.png`,
@@ -102,11 +107,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: "https://www.freecodecamp.org/",
         img: GetIconFromWebsite("https://www.freecodecamp.org/"),
       },
-      {
-        name: "BananaRancia",
-        url: "https://bananarancia.com/",
-        img: GetIconFromWebsite("https://bananarancia.com/"),
-      },
+      //{
+      //  name: "BananaRancia",
+      //  url: "https://bananarancia.com/",
+      //  img: GetIconFromWebsite("https://bananarancia.com/"),
+      //},
     ],
   },
   {
@@ -172,11 +177,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: "https://wakatime.com/dashboard",
         img: `https://wakatime.com/favicon.ico`,
       },
-      //{
-      //  name: "",
-      //  url: "",
-      //  img: "",
-      //},
+      {
+        name: "Whatsapp",
+        url: "https://web.whatsapp.com/",
+        img: GetIconFromWebsite("https://web.whatsapp.com/"),
+      },
     ],
   },
 ];

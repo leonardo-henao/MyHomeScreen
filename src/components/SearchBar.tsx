@@ -28,6 +28,7 @@ const SearchBar = () => {
             name="q"
             placeholder="Search..."
             autoFocus={true}
+            autoComplete="off"
             aria-label="Search Google"
           />
           <Tooltip
