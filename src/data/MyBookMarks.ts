@@ -117,6 +117,11 @@ export const AllBookmarks: IGroupBookmark[] = [
         url: 'https://www.cloudskillsboost.google/?locale=es',
         img: GetIconFromWebsite('https://www.cloudskillsboost.google/'),
       },
+      {
+        name: 'Fundación Telefonica',
+        url: 'https://conectaempleo-formacion.fundaciontelefonica.com/mi-perfil',
+        img: GetIconFromWebsite('https://conectaempleo-formacion.fundaciontelefonica.com/'),
+      },
     ],
   },
   {
