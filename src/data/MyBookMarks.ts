@@ -124,11 +124,9 @@ export const AllBookmarks: IGroupBookmark[] = [
         img: GetIconFromWebsite("https://www.cloudskillsboost.google/"),
       },
       {
-        name: "Fundación Telefonica",
-        url: "https://conectaempleo-formacion.fundaciontelefonica.com/mi-perfil",
-        img: GetIconFromWebsite(
-          "https://conectaempleo-formacion.fundaciontelefonica.com/",
-        ),
+        name: "Talento tech",
+        url: "https://campus.talentotechvalledelcauca.co/my/courses.php",
+        img: "https://campus.talentotechvalledelcauca.co/pluginfile.php/1/theme_moove/favicon/1751207786/ico.ico",
       },
     ],
   },
