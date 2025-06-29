@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment: gh-pages
+    environment: production
 
     env:
       VITE_UNSPLASH_API_KEY: ${{ vars.VITE_UNSPLASH_API_KEY }}
