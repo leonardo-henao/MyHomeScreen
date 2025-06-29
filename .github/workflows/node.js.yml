@@ -8,6 +8,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    env:
+      VITE_UNSPLASH_API_KEY: ${{ vars.VITE_UNSPLASH_API_KEY }}
+      VITE_UNSPLASH_TOPIC: ${{ vars.VITE_UNSPLASH_TOPIC }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
